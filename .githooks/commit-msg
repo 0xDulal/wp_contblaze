@@ -1,0 +1,10 @@
+#!/bin/sh
+
+COMMIT_MSG_FILE="$1"
+
+if grep -Eiq '^(Co-authored-by:)|Claude' "$COMMIT_MSG_FILE"; then
+    echo "ERROR: Claude attribution and Co-authored-by trailers are not allowed."
+    exit 1
+fi
+
+exit 0
