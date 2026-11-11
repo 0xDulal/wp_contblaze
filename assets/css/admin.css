@@ -1,0 +1,30 @@
+/* ContBlaze admin dashboard */
+
+.contblaze-tagline {
+	margin-top: -8px;
+	color: #646970;
+	font-size: 14px;
+}
+
+.contblaze-module-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+	gap: 16px;
+	margin-top: 16px;
+}
+
+.contblaze-module-card {
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 4px;
+	padding: 16px;
+}
+
+.contblaze-module-card h3 {
+	margin-top: 0;
+}
+
+.contblaze-module-card p {
+	margin-bottom: 0;
+	color: #646970;
+}
